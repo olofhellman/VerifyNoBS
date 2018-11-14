@@ -5,7 +5,7 @@
 // as it is preferable to have build settings specified in .xcconfig files
 
 // How to use:
-// Put this script in a foler called 'buildscripts' next to you xcode project
+// Put this script in a folder called 'buildscripts' next to your xcode project
 // Then, add a Run script build phase to one of your targets with this as the script
 //
 //   xcrun -sdk macosx swiftc -target x86_64-macosx10.11  buildscripts/VerifyNoBS.swift -o $CONFIGURATION_TEMP_DIR/VerifyNoBS
